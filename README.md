@@ -4,7 +4,7 @@ This script allows you to check which commands can be executed on each object, i
 
 **Instructions**
 
-*1*. Add the main script to the Visionaire Studio Script Editor & set the script as a definition script.
+*1*. Add the **main script** to the Visionaire Studio Script Editor & set the script as a **definition script**.
 
 *2*. Replace the strings inside of the **t** table with the name of your commands; the order is not important, but the names are case sensitive.
 ```
@@ -18,7 +18,7 @@ use_cond
 talk_cond
 etc...
 ```
-*4*. On mouse over for each object, item ,& character, create an *execute a script* action containing...
+*4*. On mouse over for each object, item & character, create an *execute a script* action containing...
 ```
 checkObjCmd()
 ```
